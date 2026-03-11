@@ -1,4 +1,4 @@
-
+ 
 /*
 Exercise 2 — Zakat Calculator
 Description: Compute the annual zakat (charitable donation) that is 2.5Input:- savings :
