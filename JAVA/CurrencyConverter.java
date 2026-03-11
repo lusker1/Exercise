@@ -1,4 +1,4 @@
-/*
+/* 
 Exercise 3 — Currency Converter (SAR to USD)
 Description: Convert an amount from Saudi Riyals (SAR) to US Dollars (USD). The user
 provides an amount in SAR and an exchange rate (in SAR per 1 USD). The program outputs
