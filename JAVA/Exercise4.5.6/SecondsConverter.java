@@ -34,4 +34,5 @@ public class SecondsConverter {
         input.close();
 
     }
+
 }
