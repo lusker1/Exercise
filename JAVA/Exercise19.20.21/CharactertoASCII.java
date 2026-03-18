@@ -1,6 +1,6 @@
 /*
 Exercise 19 — ASCII Code to Character
-Description: Given an ASCII code (an integer between 0 and 127), display the corresponding
+Description: Given an ASCII code (an integer between 0 and 127), display the corresponding 
 character. For example, 65 corresponds to ’A’. Input:- code : int (ASCII code in the range
 0–127) Output: The character with that ASCII value. Sample run:
 
