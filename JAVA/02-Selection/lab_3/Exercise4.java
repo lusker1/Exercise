@@ -1,4 +1,4 @@
-/*
+/* 
 Exercise 4 
 ATM withdrawal validator, you are an ATM, and the user wants to withdraw money from 
 their account. Write a Java program to check if : 
