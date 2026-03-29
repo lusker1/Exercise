@@ -3,7 +3,7 @@
  * ===================================================
  * ســـبحـان الله بحمده ســــبحـان الله الـعـظـيـم
  * ===================================================
- * Author      : BinSaleh (lusker1)
+ * Author      : BinSaleh (lusker1) 
  * Section     : 03 - Switch Statements
  * Question    : How to use char and string in switch
  * Date        : 2026-03-29
