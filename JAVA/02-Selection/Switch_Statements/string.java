@@ -5,7 +5,7 @@
  * ===================================================
  * Author      : BinSaleh (lusker1)
  * Section     : 03 - Switch Statements
- * Question    : How to use char and string in switch
+ * Question    : How to use char and string in switch 
  * Date        : 2026-03-29
  * Description : Basic  for using text in switch.
  * ===================================================
