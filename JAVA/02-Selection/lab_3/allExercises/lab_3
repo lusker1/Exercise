@@ -1,0 +1,230 @@
+import java.util.*;
+
+public class Lab_3 {
+
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+
+        /*
+         * Exercise 1
+         * Write a Java program that determines whether a number n given by the user is
+         * inside the
+         * range [a, b] or not, where a and b are also given by the user in any order
+         * (your program
+         * should ensure that a always smaller than b). Hint: Swap their values when
+         * needed.
+         * 
+         * Output examples:
+         * Enter the first number (a): 20
+         * Enter the second number (b): 10
+         * Enter the number to check (n): 15
+         * 15 is inside the range [10, 20].
+         * 
+         * Enter the first number (a): 5
+         * Enter the second number (b): 25
+         * Enter the number to check (n):
+         * 40
+         * 40 is not inside the range [5, 25].
+         * 
+         */
+        
+/*           System.out.println("Enter the first number (a): ");
+          int a = input.nextInt();
+          
+          System.out.println("Enter the Second number (b): ");
+          int b = input.nextInt();
+          
+          System.out.println("Enter the number to check (n) ");
+         int n = input.nextInt() ;
+          
+          if (a > b) {
+          int temp = a; // خبينا قيمة a الأصلية في المستودع المؤقت
+          a = b; // نقلنا قيمة b الصغيرة وحطيناها داخل a
+          b = temp; // أخذنا القيمة القديمة حق a من المستودع وحطيناها في b
+          }
+          if (n >= a && n <= b) {
+          System.out.println(n + " is inside the range [" + a + " , " + b + "]");
+          } else
+          System.out.println(n + " is not inside the range [" + a + " , " + b + "]");
+         */
+         
+        // =================================================================================================
+        // //
+
+        // Exericse 2 Write a Java program that determines if a number n given by the
+        // user is multiple of 11 and smaller than 100. Handle all (4) possible cases.
+        /*
+         * Output examples:
+         * Enter a number: 77
+         * 77 is a multiple of 11 and
+         * smaller than 100.
+         * 
+         * Enter a number: 45
+         * 45 is not a multiple of 11 but
+         * is smaller than 100.
+         * 
+         * Enter a number: 121
+         * 121 is a multiple of 11 but not
+         * smaller than 100.
+         * 
+         * Enter a number: 150
+         * 150 is not a multiple of 11 and
+         * not smaller than 100.
+         * 
+         */
+
+        
+   /*        System.out.print("Enter a number : ");
+          int number = input.nextInt();
+          
+          if (number % 11 == 0 && number >= 100) {
+          System.out.printf(" %d is a multiple of 11 and \nnot smaller then 100. ",
+          number);
+          } else if (number % 11 == 0 && number < 100) {
+          System.out.printf(" %d is a multiple of 11 and \nsmaller then 100. ",
+          number);
+          
+          }else if (number % 11 !=0 && number < 100) {
+          System.out.printf("%d is not multiple of 11 but \n smaller then 100.",
+          number);
+          } else
+          System.out.printf("%d is not multiple of 11 but \nnot smaller then 100.",
+          number);
+           */
+         
+        // =================================================================================================
+
+        // Exercise 3
+        /*
+         * Write a Java program that determines whether a number n given by the user is
+         * a even
+         * (multiple of 2) or odd (not multiple of 2).
+         * Hint: Use the modulus (%) operator to determine whether a number is multiple
+         * to another.
+         * 
+         * Output examples:
+         * 
+         * Enter a number: 24
+         * 24 is even.
+         * 
+         * Enter a number: 17
+         * 17 is odd.
+         */
+    /*     
+          System.out.println("Enter a number");
+          int number = input.nextInt();
+          
+          if (number % 2 == 0) {
+          System.out.println(number + " is even.");
+          
+          } else
+          System.out.println(number + " is odd.");
+          */
+
+        // =================================================================================================
+
+        /*
+         * Exercise 4
+         * ATM withdrawal validator, you are an ATM, and the user wants to withdraw
+         * money from
+         * their account. Write a Java program to check if :
+         * 
+         * 1. The amount to withdraw is a multiple of 100.
+         * 2. The account has enough balance.
+         * 3. If the withdrawal got approved, deduct the amount from the balance and
+         * show the remaining balance
+         * 4. Else, show an error message
+         * 
+         * Note: Initial balance is 5000
+         * 
+         * Output examples:
+         * Example 1:
+         * Enter the amount you want to withdraw: 1500
+         * Please collect your cash
+         * Remaining balance is: $3500
+         * 
+         * Example 2:
+         * Enter the amount you want to withdraw: 75
+         * Error: The amount should be a multiple of 100
+         * 
+         * Example 3:
+         * Enter the amount you want to withdraw: 5200
+         * Error: insufficient balance
+         */
+
+        
+ /*          System.out.println("Enter the amount you want to withdraw: ");
+          
+          int withdraw = input.nextInt();
+          
+          int amount = 5000, total = (amount - withdraw);
+          
+          if (withdraw % 100 == 0 && amount >= withdraw) {
+          System.out.println("please collect your cash");
+          System.out.println("Remaining balnce is : " + total);
+          } else if (withdraw % 100 != 0){
+          System.out.println("Error: the amount should be a multiple of 100 ");
+          } else {
+          System.out.println("Error: insufficient balance");
+          }
+          */
+
+        // =================================================================================================
+
+        // Exercise 5
+        /*
+         * Simple shopping discount system.
+         * Write a program that :
+         * 1. Ask the user to enter their total purchase amount
+         * 2. Applies a discount based on the amount :
+         * i. 1000$ or more gets a 20% discount
+         * ii. 500 $ to $999 gets a 10% discount
+         * 3. Calculate and display the discount applied and the final amount to pay
+         * 
+         * Output examples:
+         * 
+         * Enter total shopping amount: 1200
+         * -----BILL SUMMARY----
+         * Total Amount:$1200.0
+         * Discount Applied:$240.0
+         * Amount to Pay:$960.0
+         * 
+         * Enter total shopping amount: 750
+         * -----BILL SUMMARY----
+         * Total Amount:$750.0
+         * Discount Applied:$75.0
+         * Amount to Pay:$675.0
+         * 
+         * 
+         */
+
+    /*     System.out.print("Enter total shopping amount : ");
+        double total = input.nextDouble();
+
+        if (total >= 1000) {
+            double discount = total * 0.20;
+            double totalAmount = total - discount;
+
+            System.out.println("-----BILL SUMMARY----");
+            System.out.println("Total Amount: $" + total);
+            System.out.println("Discount Applied: $" + discount);
+            System.out.println("Amount to Pay: $" + totalAmount);
+
+        } else if (total >= 500) {
+            double discount = total * 0.10;
+            double totalAmount = total - discount;
+
+            System.out.println("-----BILL SUMMARY----");
+            System.out.println("Total Amount: $" + total);
+            System.out.println("Discount Applied: $" + discount);
+            System.out.println("Amount to Pay: $" + totalAmount);
+
+        } else {
+            System.out.println("-----BILL SUMMARY----");
+            System.out.println("Total Amount: $" + total);
+            System.out.println("Discount Applied: $0.0");
+            System.out.println("Amount to Pay: $" + total);
+        } */
+    }
+}
