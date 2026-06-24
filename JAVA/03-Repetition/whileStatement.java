@@ -3,7 +3,6 @@
  * ســـبحـان الله بحمده ســــبحـان الله الـعـظـيـم
  * ===================================================
  * Author      : BinSaleh (lusker1)
- * Section     : Exam Practice
  * Question    : While Loop Introduction
  * Date        : 2026-06-24
  * Description : Basic implementation of a pre-test loop 
