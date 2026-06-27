@@ -4,7 +4,7 @@
  * ===================================================
  * Author      : BinSaleh (lusker1)
  * Question    : For Loop Counting (2 To 20)
- * Date        : 2026-06-27
+ * Date        : 2026-06-27 
  * Description : A simple Java program that uses a for loop 
  * to count and print numbers from 2 up to 20.
  * ===================================================
