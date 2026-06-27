@@ -15,7 +15,7 @@ public class GradeLoop {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-
+ 
         int grade = 0, students = 0, sum = 0; 
 
         System.out.println("Enter 5 grades or -1 To Exit");
