@@ -13,7 +13,7 @@
 import java.util.*;
 
 public class studentAverage {
-
+ 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int TOTAL_STUDENT = 0 ; 
